@@ -1,5 +1,5 @@
 function getResponseFromAPI() {
-    let flag = true;
+    const flag = true;
     return new Promise((resolve, reject) => {
         if (flag) {
             resolve();
